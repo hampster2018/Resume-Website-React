@@ -1,0 +1,37 @@
+a:link { text-decoration-line: none; color: inherit}
+
+a:visited { text-decoration-line: none; color: inherit }
+
+a:hover { text-decoration-line: none; color: inherit }
+
+a:active { text-decoration-line: none; color: inherit }
+
+Button {
+    font-size: medium;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.TitleButton {
+    background: none;
+    border: none;
+    font-size: xx-large;
+    color: black;
+}
+
+.LinkButton {
+    color: black;
+}
+
+.SecondLink {
+    margin-left: auto;
+    margin-right: 4px;
+}
+
+.Link {
+    margin-right: 4px;
+}
