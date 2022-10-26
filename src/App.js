@@ -5,15 +5,12 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import useLocalStorage from 'use-local-storage'
+import "./App.js";
 
 function App() {
 
-  const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
-
   return (
-    <div className="app" data-theme={theme}>
+    <div className="App">
       <Router>
         <Navbar/>
         
