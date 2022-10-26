@@ -15,13 +15,21 @@ Button {
     justify-content: flex-start;
     align-items: center;
     background: #8D99AE;
+    position: relative;
+    height: 50px;
 }
 
-.TitleButton {
-    background: none;
+button.TitleButton {
+    background: #8D99AE;
     border: none;
     font-size: xx-large;
     color: black;
+    border-style: none;
+    box-shadow: none;
+}
+
+.TitleLink {
+    padding-left: 10px;
 }
 
 .LinkButton {

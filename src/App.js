@@ -6,7 +6,10 @@ import {
 } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Interest from "./components/Interest/Interest"
+import CurrentWork from "./components/CurrentWork/CurrentWork";
 
 import "./App.css";
 
@@ -16,11 +19,12 @@ function App() {
     <div className="App">
       <Router>
         <Navbar/>
-        <Home/>
         
         <Routes>
-            <Route path="/" element={<div>hello</div>}/>
-            <Route path="/about" element={<div>hi</div>}/>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/about" element={<About/>}/>
+            <Route path="/interest" element={<Interest/>}/>
+            <Route path="/currentWork" element={<CurrentWork/>}/>
         </Routes>
       </Router>
     </div>

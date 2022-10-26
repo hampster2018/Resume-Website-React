@@ -23,7 +23,7 @@ export default function Navbar () {
     return (
     <>
         <div className="Navbar">
-            <RouteSelect buttonStyle="TitleButton" value="Eric Shields" to="/"/>
+            <RouteSelect divStyle="TitleLink" buttonStyle="TitleButton" value="Eric Shields" to="/"/>
             <RouteSelect divStyle="SecondLink" value="about" to="/about"/>
             <RouteSelect divStyle="Link" value="interest" to="/interest"/>
             <RouteSelect divStyle="Link" value="Current Work" to="/currentWork"/>
