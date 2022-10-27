@@ -1,3 +1,8 @@
 .Home {
-    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Headshot {
+    align-self: center;
 }
