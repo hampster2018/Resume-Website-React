@@ -23,6 +23,7 @@ Button {
     background: #8D99AE;
     border: none;
     font-size: xx-large;
+    font-style: oblique;
     color: black;
     border-style: none;
     box-shadow: none;
