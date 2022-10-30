@@ -8,7 +8,7 @@ function RouteSelect (prop) {
     
     return (
         <div className={prop.divStyle}>
-            <button className={prop.buttonStyle ? undefined : "LinkButton"}>
+            <button className={prop.buttonStyle === undefined ? prop.buttonStyle : "LinkButton"}>
                 <Link to={prop.to}>
                     {prop.value}
                 </Link>

@@ -19,7 +19,7 @@ Button {
     height: 50px;
 }
 
-button.TitleButton {
+.TitleButton {
     background: #8D99AE;
     border: none;
     font-size: xx-large;
