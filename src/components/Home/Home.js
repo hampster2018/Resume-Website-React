@@ -9,6 +9,7 @@ export default function Home () {
     return (
     <div className="Home">
         <img src={Headshot} alt="Headshot" className="Headshot"/>
+        <div>Hi</div>
     </div>
     );
 

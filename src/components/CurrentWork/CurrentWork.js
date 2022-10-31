@@ -13,9 +13,7 @@ export default function CurrentWork () {
 
     return (
         <div className="Grid-Container">
-            <div className="Card-Grid">
-                {Works}
-            </div>
+            {Works}
         </div>
     );
 

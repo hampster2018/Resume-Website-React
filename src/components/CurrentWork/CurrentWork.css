@@ -1,12 +1,9 @@
 .Grid-Container {
-    display: flex;
-    justify-content: center;
-}
-
-.Card-Grid {
-    display: grid;
-    justify-content: center;
-    -ms-grid-column-align: center;
-    width: 300px;
-    grid-template-columns: 50px 50px;
+    height: 100vh;
+	background-color:  #111;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 }
