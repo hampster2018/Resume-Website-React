@@ -1,8 +1,12 @@
 .Home {
     display: flex;
     justify-content: center;
+    width: device-width;
 }
 
 .Headshot {
-    align-self: center;
+    padding: 50px 25px;
+    padding-left: 100px;
+    height: 400px;
+    width: 400px;
 }

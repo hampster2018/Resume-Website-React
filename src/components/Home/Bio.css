@@ -1,0 +1,8 @@
+#BioDiv {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+
+    padding-top: 25px;
+    padding-left: 5%;
+}
