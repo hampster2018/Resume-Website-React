@@ -3,6 +3,12 @@ import { useEffect, useState } from "react"
 import axios from "axios";
 import WorkCard from "./WorkCard";
 
+function sortTimes (objects) {
+    return objects.sort((a, b) => {
+        console.log(a)
+        return JSON.parse(a).updated_at - JSON.parse(b).updated_at;
+    });
+};
 
 import "./CurrentWork.css"
 
@@ -24,8 +30,6 @@ export default function CurrentWork () {
                 setLoaded(true);    
             })
     }
-
-    async function fetchLanguages() {
 
     }
 
